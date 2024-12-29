@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family:  Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.header {
+    padding: 40px;
+    background-color: #CC231E;
+}
+.header .title {
+    font-family: 'Mountains of Christmas';
+    margin-left: 10px;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    padding: 40px;
+    background-color: #CC231E;
+}
+.footer .title {
+    font-family: 'Mountains of Christmas';
+    margin-left: 10px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
