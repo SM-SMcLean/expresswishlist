@@ -25,6 +25,13 @@
                     </div>
                 </form>
 
+                <% data.forEach((wishlist) => { %>
+                    <div class="flex-item">
+                        <%= wishlist.item %>
+                    </div>
+            <% }); %>
+
+            <!--
                 <div class="flex-item">
                     Item 1
                 </div>
@@ -37,6 +44,7 @@
                 <div class="flex-item">
                     Item 4
                 </div>
+                -->
 
             </div>
         </main>
