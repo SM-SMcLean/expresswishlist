@@ -103,3 +103,29 @@ main {
     color: white;
     text-align: center;
 }
+
+@media only screen and (max-width: 1458px) {
+    .flex-item {
+        padding: 20px 60px;
+    }
+}
+@media only screen and (max-width: 1252px) {
+    .flex-item {
+        padding: 20px 50px;
+    }
+}
+@media only screen and (max-width: 1076px) {
+    .flex-item {
+        padding: 20px 40px;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .flex-item {
+        flex-basis: 30%;
+    }
+}
+@media only screen and (max-width: 635px) {
+    .flex-item {
+        flex-basis: 100%;
+    }
+}
